@@ -45,7 +45,7 @@ class JWTLoginTab extends Component {
                     this.props.setCurrentUser(res.data);
                 })
 
-                .then(() => this.props.history.push('/air'))
+                .then(() => this.props.history.push('/dashboard'))
                 .then(() => window.location.reload())
 
                 .catch(err => {
@@ -58,7 +58,7 @@ class JWTLoginTab extends Component {
         const token = localStorage.getItem('jwtToken');
         if (token) {                                            //Token Check
             if (nextProps.login.isAuthenticated) {
-                this.props.history.push('/air');
+                this.props.history.push('/dashboard');
                 window.location.reload();
             }
         } else {

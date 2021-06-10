@@ -43,14 +43,14 @@ const superAdminNavigationConfig = [
                 title: 'Dashbaord',
                 type: 'item',
                 icon: 'whatshot',
-                url: '/airdashboard'
+                url: '/dashboard'
             },
             {
                 id: 'air',
-                title: 'Air Readings',
+                title: 'IoT Data',
                 type: 'item',
                 icon: 'whatshot',
-                url: '/air'
+                url: '/data'
             },
             {
                 id: 'graph',

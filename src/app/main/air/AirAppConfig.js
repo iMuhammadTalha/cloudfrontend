@@ -12,7 +12,7 @@ export const AirAppConfig = {
     auth: authRoles.fleet,
     routes: [
         {
-            path: "/air",
+            path: "/data",
             component: AirApp,
         },
     ],

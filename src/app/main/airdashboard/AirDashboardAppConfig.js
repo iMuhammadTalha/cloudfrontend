@@ -12,7 +12,7 @@ export const AirDashboardAppConfig = {
     auth: authRoles.fleet,
     routes: [
         {
-            path: "/airdashboard",
+            path: "/dashboard",
             component: AirDashboardApp,
         },
     ],
