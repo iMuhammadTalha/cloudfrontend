@@ -34,19 +34,7 @@ export const getAirsPaginationData = (page, pageSize, sorted) => (dispatch) => {
             sortingOrder = "ASC";
         }
     }
-    let query = "";
-    if(selectedSearch.nodeId=="Undefined"){
-        query = "air/get-all-readings/" +
-        page +
-        "/" +
-        pageSize +
-        "/" +
-        sortingName +
-        "/" +
-        sortingOrder;
-    } else {
-        query = "air/get-a-node-all-readings/" +
-        selectedSearch.nodeId +
+    let query = "air/get-a-node-all-readings/1"+
         "/" +
         page +
         "/" +
@@ -55,7 +43,7 @@ export const getAirsPaginationData = (page, pageSize, sorted) => (dispatch) => {
         sortingName +
         "/" +
         sortingOrder;
-    }
+    
     
     axios
         .get(Base_URL + query)

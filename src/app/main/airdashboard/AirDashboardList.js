@@ -8,16 +8,11 @@ import ReactTable from "react-table";
 import { FuseAnimateGroup } from "@fuse";
 
 import * as Actions from "./store/actions";
-import RecentAQI from "./RecentAQI";
-import CH4 from "./CH4";
-import NO2 from "./NO2";
-import NH3 from "./NH3"
-import CO from "./CO"
+
 import CO2 from "./CO2"
 import Dust from "./dust"
 import Humidity from "./humidity";
 import Temperature from "./temperature"
-import Legend from "./legend";
 
 class AirDashboardList extends Component {
     state = {
