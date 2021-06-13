@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/cloudfrontend/static/media/muli-latin-400.8160dac0.woff2"
   },
   {
-    "revision": "b0f17b38ff3123d07235537f07affb6b",
-    "url": "/cloudfrontend/static/media/muli-latin-400.b0f17b38.woff"
-  },
-  {
     "revision": "730c6bfaeefe6acc35962b09a3216780",
     "url": "/cloudfrontend/static/media/muli-latin-400italic.730c6bfa.woff2"
+  },
+  {
+    "revision": "b0f17b38ff3123d07235537f07affb6b",
+    "url": "/cloudfrontend/static/media/muli-latin-400.b0f17b38.woff"
   },
   {
     "revision": "688fb50a683fa1eb3c305f13d60ad0b5",
@@ -108,20 +108,20 @@ self.__precacheManifest = [
     "url": "/cloudfrontend/static/media/muli-latin-800.47fd62e6.woff"
   },
   {
-    "revision": "37700966bbf1ee00e8117d24894a626e",
-    "url": "/cloudfrontend/static/media/muli-latin-900.37700966.woff2"
-  },
-  {
     "revision": "33637beba96ae8534f650cff84fd6d2d",
     "url": "/cloudfrontend/static/media/muli-latin-800italic.33637beb.woff2"
   },
   {
-    "revision": "66c9d5ed7f4803424dda9b691851b222",
-    "url": "/cloudfrontend/static/media/muli-latin-900.66c9d5ed.woff"
-  },
-  {
     "revision": "a1e64515397a4c9b3d595405dbd42b47",
     "url": "/cloudfrontend/static/media/muli-latin-800italic.a1e64515.woff"
+  },
+  {
+    "revision": "37700966bbf1ee00e8117d24894a626e",
+    "url": "/cloudfrontend/static/media/muli-latin-900.37700966.woff2"
+  },
+  {
+    "revision": "66c9d5ed7f4803424dda9b691851b222",
+    "url": "/cloudfrontend/static/media/muli-latin-900.66c9d5ed.woff"
   },
   {
     "revision": "f99056b607ef79e25593f04506f5f744",
