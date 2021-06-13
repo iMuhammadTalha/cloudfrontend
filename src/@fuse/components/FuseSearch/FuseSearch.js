@@ -174,7 +174,7 @@ const styles = theme => ({
     }
 });
 
-class FuseSearch extends Component {
+class FuseSearch extends React.Component {
 
     state = {
         search: false,

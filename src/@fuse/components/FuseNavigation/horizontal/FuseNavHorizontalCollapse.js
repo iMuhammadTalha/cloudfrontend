@@ -51,7 +51,7 @@ const styles = theme => ({
     }
 });
 
-class FuseNavHorizontalCollapse extends Component {
+class FuseNavHorizontalCollapse extends React.Component {
 
     state = {
         open: false

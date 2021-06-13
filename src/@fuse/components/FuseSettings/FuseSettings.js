@@ -49,7 +49,7 @@ const styles = theme => ({
     }
 });
 
-class FuseSettings extends Component {
+class FuseSettings extends React.Component {
 
     handleChange = (event) => {
 

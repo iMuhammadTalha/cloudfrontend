@@ -19,7 +19,7 @@ const styles = theme => ({
     }
 });
 
-class Register extends Component {
+class Register extends React.Component {
     state = {
         tabValue: 0
     };

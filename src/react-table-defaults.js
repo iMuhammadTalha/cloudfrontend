@@ -31,7 +31,7 @@ const filterTypes = [
     }
 ];
 
-class FilterComponent extends Component {
+class FilterComponent extends React.Component {
     state = {
         filterType: 'contains',
         filterValue: '',

@@ -63,7 +63,7 @@ const styles = theme => ({
     root: {}
 });
 
-class FuseScrollbars extends Component {
+class FuseScrollbars extends React.Component {
     constructor(props) {
         super(props);
         this._handlerByEvent = new Map();

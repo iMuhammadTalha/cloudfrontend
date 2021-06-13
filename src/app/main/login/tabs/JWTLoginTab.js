@@ -9,7 +9,7 @@ import * as authActions from 'app/auth/store/actions';
 import axios from 'axios';
 import {Base_URL} from '../../../server';
 
-class JWTLoginTab extends Component {
+class JWTLoginTab extends React.Component {
     state = {
         canSubmit: false
     };

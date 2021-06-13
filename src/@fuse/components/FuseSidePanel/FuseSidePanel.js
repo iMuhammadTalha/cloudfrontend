@@ -160,7 +160,7 @@ const styles = theme => ({
     }
 });
 
-class FuseSidePanel extends Component {
+class FuseSidePanel extends React.Component {
 
     state = {
         opened: this.props.opened,

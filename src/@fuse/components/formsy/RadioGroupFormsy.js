@@ -3,7 +3,7 @@ import {FormControl, FormHelperText, FormLabel, RadioGroup} from '@material-ui/c
 import {withFormsy} from 'formsy-react';
 import _ from '@lodash';
 
-class RadioGroupFormsy extends Component {
+class RadioGroupFormsy extends React.Component {
 
     changeValue = (event, value) => {
         this.props.setValue(value);

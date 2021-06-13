@@ -8,7 +8,7 @@ import ReactTable from "react-table";
 import * as Actions from "./store/actions";
 import "react-table/react-table.css";
 
-class AirList extends Component {
+class AirList extends React.Component {
     state = {
         page: 0,
         pageSize: 20,

@@ -15,7 +15,7 @@ import {Paper, Typography} from "@material-ui/core";
 
 
 
-class GraphList extends Component {
+class GraphList extends React.Component {
     
 
     render() {

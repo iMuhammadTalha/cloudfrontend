@@ -7,7 +7,7 @@ import {withRouter} from 'react-router-dom';
 import connect from 'react-redux/es/connect/connect';
 import * as authActions from 'app/auth/store/actions';
 
-class JWTRegisterTab extends Component {
+class JWTRegisterTab extends React.Component {
     state = {
         canSubmit: false
     };

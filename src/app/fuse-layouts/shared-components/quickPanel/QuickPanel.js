@@ -11,7 +11,7 @@ const styles = theme => ({
     }
 });
 
-class QuickPanel extends Component {
+class QuickPanel extends React.Component {
 
     render() {
         const {classes, state, toggleQuickPanel} = this.props;

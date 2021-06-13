@@ -17,7 +17,7 @@ const styles = theme => ({
     root: {}
 });
 
-class FuseCountdown extends Component {
+class FuseCountdown extends React.Component {
 
     state = {
         endDate: moment.isMoment(this.props.endDate) ? this.props.endDate : moment(this.props.endDate),

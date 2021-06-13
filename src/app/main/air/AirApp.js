@@ -14,7 +14,7 @@ import * as Actions from "./store/actions";
 import reducer from "./store/reducers";
 import "./style.css";
 
-class AirApp extends Component {
+class AirApp extends React.Component {
     componentDidMount() {
         this.props.getAllAirs();
     }

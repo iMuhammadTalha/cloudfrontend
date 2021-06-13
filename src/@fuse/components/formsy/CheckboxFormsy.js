@@ -3,7 +3,7 @@ import {Checkbox, FormControl, FormControlLabel, FormHelperText} from '@material
 import {withFormsy} from 'formsy-react';
 import _ from '@lodash';
 
-class CheckboxFormsy extends Component {
+class CheckboxFormsy extends React.Component {
 
     changeValue = (event) => {
         this.props.setValue(event.target.checked);

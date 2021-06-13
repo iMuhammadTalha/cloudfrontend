@@ -5,7 +5,7 @@ import * as authActions from 'app/auth/store/actions';
 import {bindActionCreators} from 'redux';
 import {Link} from 'react-router-dom';
 
-class UserMenu extends Component {
+class UserMenu extends React.Component {
     state = {
         userMenu: null
     };

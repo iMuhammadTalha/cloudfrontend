@@ -7,7 +7,7 @@ import * as Actions from 'app/store/actions';
 import auth0Service from 'app/services/auth0Service';
 import jwtService from 'app/services/jwtService';
 
-class Auth extends Component {
+class Auth extends React.Component {
     /*eslint-disable-next-line no-useless-constructor*/
     constructor(props) {
         super(props);

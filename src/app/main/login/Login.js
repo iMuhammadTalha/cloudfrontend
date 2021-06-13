@@ -18,7 +18,7 @@ const styles = theme => ({
     }
 });
 
-class Login extends Component {
+class Login extends React.Component {
     state = {
         tabValue: 0
     };

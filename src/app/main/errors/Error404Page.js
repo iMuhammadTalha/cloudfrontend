@@ -3,7 +3,7 @@ import {Typography} from '@material-ui/core';
 import {FuseAnimate} from '@fuse';
 import {Link} from 'react-router-dom';
 
-class Error404Page extends Component {
+class Error404Page extends React.Component {
     // state = {
     //     tabValue: 0
     // };

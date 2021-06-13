@@ -3,7 +3,7 @@ import {TextField} from '@material-ui/core';
 import {withFormsy} from 'formsy-react';
 import _ from '@lodash';
 
-class TextFieldFormsy extends Component {
+class TextFieldFormsy extends React.Component {
 
     changeValue = (event) => {
         this.props.setValue(event.currentTarget.value);

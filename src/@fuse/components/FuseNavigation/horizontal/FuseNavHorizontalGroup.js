@@ -51,7 +51,7 @@ const styles = theme => ({
     }
 });
 
-class FuseNavHorizontalGroup extends Component {
+class FuseNavHorizontalGroup extends React.Component {
 
     state = {
         open: false

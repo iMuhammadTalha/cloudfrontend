@@ -4,7 +4,7 @@ import {withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import AppContext from 'app/AppContext';
 
-class FuseAuthorization extends Component {
+class FuseAuthorization extends React.Component {
 
     constructor(props, context) {
         super(props);

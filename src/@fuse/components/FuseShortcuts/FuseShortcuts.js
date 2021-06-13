@@ -42,7 +42,7 @@ const styles = theme => ({
     }
 });
 
-class FuseShortcuts extends Component {
+class FuseShortcuts extends React.Component {
 
     state = {
         addMenu: null,

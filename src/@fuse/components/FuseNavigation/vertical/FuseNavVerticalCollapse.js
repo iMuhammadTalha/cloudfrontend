@@ -65,7 +65,7 @@ function isUrlInChildren(parent, url) {
     return false;
 }
 
-class FuseNavVerticalCollapse extends Component {
+class FuseNavVerticalCollapse extends React.Component {
 
     constructor(props) {
         super(props);

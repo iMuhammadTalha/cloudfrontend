@@ -14,7 +14,7 @@ import Dust from "./dust"
 import Humidity from "./humidity";
 import Temperature from "./temperature"
 
-class AirDashboardList extends Component {
+class AirDashboardList extends React.Component {
     state = {
         page: 0,
         pageSize: 20,

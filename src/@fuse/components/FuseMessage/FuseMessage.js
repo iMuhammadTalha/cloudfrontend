@@ -33,7 +33,7 @@ const variantIcon = {
     info: "info"
 };
 
-class FuseMessage extends Component {
+class FuseMessage extends React.Component {
     render() {
         const {classes, options} = this.props;
         return (

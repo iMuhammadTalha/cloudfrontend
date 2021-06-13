@@ -3,7 +3,7 @@ import {FilledInput, FormControl, FormHelperText, Input, InputLabel, OutlinedInp
 import {withFormsy} from 'formsy-react';
 import _ from '@lodash';
 
-class SelectFormsy extends Component {
+class SelectFormsy extends React.Component {
 
     changeValue = (event) => {
         this.props.setValue(event.target.value);

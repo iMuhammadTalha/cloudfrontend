@@ -7,7 +7,7 @@ import * as Actions from "./store/actions";
 import IconButton from "@material-ui/core/IconButton";
 import Icon from "@material-ui/core/Icon";
 
-class humidity extends Component {
+class humidity extends React.Component {
 
     componentDidMount() {
         this.refreshData();

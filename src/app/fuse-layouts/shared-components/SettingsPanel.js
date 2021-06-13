@@ -55,7 +55,7 @@ const styles = theme => ({
     }
 });
 
-class SettingsPanel extends Component {
+class SettingsPanel extends React.Component {
 
     state = {
         open: false

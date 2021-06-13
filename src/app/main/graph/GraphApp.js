@@ -14,7 +14,7 @@ import * as Actions from "./store/actions";
 import reducer from "./store/reducers";
 import "./style.css";
 
-class GraphApp extends Component {
+class GraphApp extends React.Component {
     componentDidMount() {
         this.props.getAllGraphs();
     }

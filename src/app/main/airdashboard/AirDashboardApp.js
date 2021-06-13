@@ -14,7 +14,7 @@ import * as Actions from "./store/actions";
 import reducer from "./store/reducers";
 import "./style.css";
 
-class AirDashboardApp extends Component {
+class AirDashboardApp extends React.Component {
     componentDidMount() {
         this.props.getRecentAQI();
         this.props.getARecentReading();

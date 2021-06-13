@@ -9,7 +9,7 @@ import { connect } from "react-redux";
 import * as Actions from "./store/actions";
 import _ from "@lodash";
 
-class AirHeader extends Component {
+class AirHeader extends React.Component {
     state = {
         nodeId: ""
         

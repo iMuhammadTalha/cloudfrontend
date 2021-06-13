@@ -42,7 +42,7 @@ const styles = theme => ({
     }
 });
 
-class FuseLayout extends Component {
+class FuseLayout extends React.Component {
 
     constructor(props, context) {
         super(props);
