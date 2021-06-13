@@ -51,7 +51,7 @@ export const getRecentAQI = () => (dispatch) => {
     axios
         .get(Base_URL + query)
         .then((res) => {
-            console.log(res.data.aqi);
+            // console.log(res.data.aqi);
             dispatch({
                 type: GET_RECENT_AQI,
                 payload: res.data
