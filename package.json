@@ -92,9 +92,9 @@
   },
   "scripts": {
     "start": "yarn run tailwind && cross-env NODE_PATH=src react-scripts start",
-    "build": "yarn run tailwind && node ./purge-tailwindcss.js && cross-env NODE_PATH=src GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "babel src -d lib",
     "tailwind": "./node_modules/.bin/tailwind build ./src/styles/tailwind.base.css -c ./tailwind.js -o ./src/styles/tailwind.css",
-    "test": "cross-env NODE_PATH=src react-scripts test --env=node",
+    "test": "jest",
     "eject": "cross-env NODE_PATH=src react-scripts eject",
     "build-docs": "babel-node src/app/main/components/material-ui/build.js",
     "build-stats": "yarn run build --stats",
